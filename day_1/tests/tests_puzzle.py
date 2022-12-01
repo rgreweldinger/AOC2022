@@ -4,7 +4,7 @@ from src.puzzle import calc_elfs, calc_max_elf, calc_top_range_elf
 test_dict = {"elf_1": 7, "elf_2": 11, "elf_3": 24}
 
 def test_calc_elf():
-    with open("/Users/r.greweldinger/workspace/AOC2022/day_1/tests/test_input.txt", "r") as input:
+    with open("day_1/tests/test_input.txt", "r") as input:
         cookie_dict = calc_elfs(input)
         assert cookie_dict == test_dict
 

@@ -38,7 +38,7 @@ def calc_top_range_elf(top_range, cookie_dict):
     return value
 
 
-with open("/Users/r.greweldinger/workspace/AOC2022/day_1/src/input.txt", "r") as input:
+with open("day_1/src/input.txt", "r") as input:
     cookie_dict = calc_elfs(input)
 
 max_elf, max_elf_value = calc_max_elf(cookie_dict)
