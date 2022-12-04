@@ -9,7 +9,7 @@ def test_calc_score():
 
 
 def test_calc_strat():
-    with open("day_2/tests/test_input.txt", "r") as input:
+    with open("day_3/tests/test_input.txt", "r") as input:
         list_input = [cookie.strip() for cookie in input]
         result = calc_puzzle_2(list_input)
     assert result == 70
