@@ -42,14 +42,6 @@ def calc_puzzle_1(list_input):
     return len(visited)       
 
 
-def move(movement, h_x, h_y):
-    if movement[1] < -1:
-        t_y -= 1
-        t_x = h_x
-
-    return h_x,h_y,t_x,t_y
-
-
 def calc_puzzle_2(list_input):
     visited = set()
     positions = {
